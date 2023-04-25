@@ -1,5 +1,5 @@
 # Code for AutoPEFT: Automatic Configuration Search for Parameter-Efficient Fine-Tuning.
-![BGPBT](figs/autopeft.png)
+![AutoPEFT](figs/autopeft.png)
 **Link to paper**:
 [AutoPEFT: Automatic Configuration Search for Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2301.12132)
 ## Installation
@@ -28,8 +28,9 @@ pip install .
 pip install -r examples/pytorch/text-classification/requirements.txt
 ```
 Notice that sk-learn should be 1.1.3. It will show error if you install the latest 1.2.0
-Moreover, pyro requires cuda version starting with 1.x, you can remove this assertion if you are willing to use torch 2.0.0
-6. To run locally, you can also install the model from Huggingface. Otherwise, just specify the bert-base-uncased in the model path.
+Moreover, pyro requires cuda version starting with 1.x, you can remove this assertion if you are willing to use torch 2.0.0.
+
+4. To run locally, you can also install the model from Huggingface. Otherwise, just specify the bert-base-uncased in the model path.
 ```
 cd ./adapterhub-nas
 git lfs install
