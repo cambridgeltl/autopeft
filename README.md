@@ -57,16 +57,10 @@ $HOME_DIR/.conda/envs/autopeft/bin/python3 run_one_replicate \
 ## Citation
 If you find our work to be useful, please cite:
 ```
-@article{zhou-etal-2024-autopeft,
-    title = "AutoPEFT: Automatic Configuration Search for Parameter-Efficient Fine-Tuning",
-    author = "Zhou, Han  and
-      Wan, Xingchen  and
-      Vuli{\'c}, Ivan  and
-      Korhonen, Anna",
-    journal = "Transactions of the Association for Computational Linguistics",
-    volume = "12",
-    year = "2024",
-    address = "Cambridge, MA",
-    publisher = "MIT Press"
+@article{zhou2023autopeft,
+  title={AutoPEFT: Automatic Configuration Search for Parameter-Efficient Fine-Tuning},
+  author={Zhou, Han and Wan, Xingchen and Vuli{\'c}, Ivan and Korhonen, Anna},
+  journal={arXiv preprint arXiv:2301.12132},
+  year={2023}
 }
 ```
